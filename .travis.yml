@@ -4,4 +4,4 @@ jdk: openjdk6
  
  
 install:
- ant war
+ ant test
