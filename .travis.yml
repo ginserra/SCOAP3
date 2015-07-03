@@ -4,5 +4,5 @@ jdk:
  - openjdk6
 
 install:
- - ant deps
+ - ant lib
  - ant compile
