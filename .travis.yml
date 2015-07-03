@@ -3,4 +3,4 @@ language: java
 jdk:
  - openjdk6
 
-script:ant test
+install:ant test
