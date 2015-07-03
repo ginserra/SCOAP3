@@ -1,5 +1,7 @@
 language: java
 
+before_install:
+-sudo cp lib/* /usr/share/ant/lib/
 
 install:
- - ant -lib ${HOME}/lib compile
+ - ant compile
