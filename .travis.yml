@@ -2,4 +2,4 @@ language: java
 
 
 install:
- - ant compile
+ - ant -lib lib/ compile
