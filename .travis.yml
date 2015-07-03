@@ -4,4 +4,4 @@ jdk:
  - openjdk6
 
 install:
- - ant test 
+ - ant compile
